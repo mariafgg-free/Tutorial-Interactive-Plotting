@@ -27,19 +27,8 @@ class WellLogWidget(anywidget.AnyWidget):
         nphi = df['NPHI'].values / 100 # Convert to decimal 0.6 - 0
         dt = df['DT'].values
 
-        # --- SHADING LOGIC (Python Side) ---
-        # We need to map NPHI (0.6-0) to RHOB (1.65-2.65) space to detect crossover
-        # Linear mapping: y = mx + c
-        # NPHI 0.6 -> RHOB 1.65
-        # NPHI 0.0 -> RHOB 2.65
-        # Slope m = (2.65 - 1.65) / (0 - 0.6) = 1 / -0.6 = -1.666
-        # Formula: RHOB_equiv = 2.65 + (nphi - 0) * (-1.666)
         nphi_on_rhob_scale = 2.65 + (nphi * -1.666667)
         
-        # Identify crossover zones (Yellow where RHOB < NPHI_equiv)
-        # In ECharts, we can't easily "fill between curves". 
-        # Trick: We create a polygon series for the yellow area.
-        # Simple approximation: Where crossover exists, draw a band.
         
         # Helper to zip data [value, depth]
         def to_list(arr): return list(zip(arr.tolist(), depth.tolist()))
