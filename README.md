@@ -20,4 +20,4 @@ license = {See LICENSE file in repository}
 }
 
 
-This repository is licensed under the terms in the [LICENSE](LICENSE) file. Attribution helps support open source educational content![web:9][attached_file:1]
+This repository is licensed under the terms in the [LICENSE](LICENSE) file. Attribution helps support open source educational content!
