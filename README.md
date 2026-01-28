@@ -16,7 +16,7 @@ author = {Maria Fernanda Gonzalez},
 title = {Tutorial-Interactive-Plotting: A tutorial for beginners using Python and Javascript for basic triple combo plotting},
 year = {2026},
 url = {https://github.com/mariafgg-free/Tutorial-Interactive-Plotting},
-license = {See LICENSE file in repository}
+license = {MIT}
 }
 
 
