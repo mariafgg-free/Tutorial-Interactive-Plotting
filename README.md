@@ -12,7 +12,7 @@ Maria Fernanda Gonzalez. (2026). Tutorial-Interactive-Plotting: A tutorial for b
 
 **BibTeX:**
 @software{mariafgg_tutorial_interactive_plotting,
-author = {Maria FGG},
+author = {Maria Fernanda Gonzalez},
 title = {Tutorial-Interactive-Plotting: A tutorial for beginners using Python and Javascript for basic triple combo plotting},
 year = {2026},
 url = {https://github.com/mariafgg-free/Tutorial-Interactive-Plotting},
