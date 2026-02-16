@@ -23,8 +23,9 @@ license = {MIT}
 This repository is licensed under the terms in the [LICENSE](LICENSE) file. Attribution helps support open source educational content!
 
 ---
-
 ## ⭐ Support this Project
 If you found this tutorial helpful, please give it a **Star**! 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mariafgg-free/Tutorial-Interactive-Plotting&type=Date)](https://star-history.com/#mariafgg-free/Tutorial-Interactive-Plotting&Date)
+<a href="https://star-history.com/#mariafgg-free/Tutorial-Interactive-Plotting&Date">
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mariafgg-free/Tutorial-Interactive-Plotting&type=Date" />
+</a>
